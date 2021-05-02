@@ -8,7 +8,8 @@ void setup(){
     delay(200);
     lcd.print("hello");
     a = a + 1;
-    delay(100);
+    delay(500);
+    lcd.clear();
   }
 }
 void loop(){
