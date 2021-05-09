@@ -6,14 +6,14 @@ void setup(){
   lcd.print(':');
   lcd.setCursor(6,0);
   lcd.print(':');
-  int a=00;
+  int a=0;
   for (int i=00;i<60;i++){
     delay(400);
     lcd.setCursor(10,0);
     lcd.print(i);
     delay(500);
     if(i==60){
-      int i=00;
+      int i=0;
       int a=a+1;
       lcd.setCursor(7,0);
       lcd.print(a);
