@@ -16,7 +16,7 @@ void setup(){
     lcd.setCursor(10,0);
     lcd.print(i);
     delay(500);
-    if(i==59){i=0;a=a+1;lcd.setCursor(7,0);lcd.print(a);}
+    if(i==20){i=0;a=a+1;lcd.setCursor(7,0);lcd.print(a);}
     else if(a==12){i=0;a=0;lcd.setCursor(4,0);lcd.print(b);}
   }
 }
