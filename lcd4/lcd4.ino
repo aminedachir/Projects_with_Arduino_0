@@ -17,13 +17,13 @@ void setup(){
     lcd.setCursor(10,0);
     lcd.print(i);
     delay(500);
-    if(i==5){
+    if(i==59){
       i=0;
       a=a+1;
       lcd.setCursor(7,0);
       lcd.print(a);
     }
-    else if(a==2){
+    else if(a==12){
       i=0;
       a=0;
       lcd.setCursor(4,0);
