@@ -12,7 +12,7 @@ void setup(){
     lcd.setCursor(10,0);
     lcd.print(i);
     delay(500);
-    if(i==60){
+    if(i==59){
       int i=0;
       int a=a+1;
       lcd.setCursor(7,0);
