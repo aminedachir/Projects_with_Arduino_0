@@ -6,7 +6,12 @@ void setup(){
   lcd.print(':');
   lcd.setCursor(6,0);
   lcd.print(':');
+  int b=0;
   int a=0;
+  lcd.setCursor(7,0);
+      lcd.print(a);
+  lcd.setCursor(4,0);
+      lcd.print(b);
   for (int i=0;i<600;i++){
     delay(400);
     lcd.setCursor(10,0);
@@ -17,6 +22,12 @@ void setup(){
       a=a+1;
       lcd.setCursor(7,0);
       lcd.print(a);
+    }
+    else if(a==2){
+      i=0;
+      a=0;
+      lcd.setCursor(4,0);
+      lcd.print(b);
     }
   }
 }
