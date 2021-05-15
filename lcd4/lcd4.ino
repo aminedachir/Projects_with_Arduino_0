@@ -13,7 +13,6 @@ void loop(){
 
 void setup(){
   lcd.begin(2,2);
-  /*
   lcd.setCursor(9,0);
   lcd.print(':');
   lcd.setCursor(6,0);
@@ -31,5 +30,4 @@ void setup(){
     if(i==20){i=0;a=a+1;lcd.setCursor(7,0);lcd.print(a);}
     else if(a==12){i=0;a=0;lcd.setCursor(4,0);lcd.print(b);}
   }
-  */
 }
