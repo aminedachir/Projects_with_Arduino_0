@@ -6,10 +6,9 @@ void setup(){
   for (int i=0;i<16;i++){
     lcd.setCursor(a,0);
     delay(500);
-    lcd.print("hello");
+    lcd.print("hhello");
     a = a + 1;
-    b = a - 1;
-    lcd.setCursor(b,0);
+    lcd.setCursor(a,0);
     lcd.print(" ");
   }
 }
