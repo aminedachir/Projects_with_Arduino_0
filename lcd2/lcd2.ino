@@ -1,6 +1,8 @@
 #include "LiquidCrystal.h"
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 void setup(){
+}
+void loop(){
   lcd.begin(2,2);
   int a = 0;int b = -2;
   for (int i=0;i<16;i++){
@@ -12,6 +14,4 @@ void setup(){
     lcd.setCursor(b,0);
     lcd.print(" ");
   }
-}
-void loop(){
 }
