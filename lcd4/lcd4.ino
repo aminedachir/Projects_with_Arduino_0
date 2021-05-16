@@ -22,11 +22,4 @@ void setup(){
   }
 }
 void loop(){
-  lcd.setCursor(0,0);
-  lcd.print("Press select to");
-  lcd.setCursor(3,1);
-  lcd.print("start Time");  
-  int x;
-  x = analogRead(0);
-  if(x<800){lcd.clear();lcd.print("a");}
 }
