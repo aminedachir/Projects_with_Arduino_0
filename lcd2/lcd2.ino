@@ -10,10 +10,8 @@ void setup(){
     a = a + 1;
     delay(500);
     b = a - 1;
-    for (int i=0;i<a){
-        lcd.setCursor(b,0);
-      }
-    
+    lcd.setCursor(b,0);
+    lcd.print(" ");
   }
 }
 void loop(){
